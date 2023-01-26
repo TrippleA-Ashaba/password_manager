@@ -1,19 +1,17 @@
 import json
 import secrets
+import string
 from tkinter import *
 from tkinter import messagebox
-import string
-
 
 import pyperclip
 
+# GUI colors
 BTN_COLOR = "#cce0ff"
 BTN_ACTIVE = "#99c2ff"
 ENTRY_BG = "#e6f0ff"
 
 # ---------------------------- PASSWORD GENERATOR ------------------------------- #
-# Password Generator Project
-from random import choice, randint, shuffle
 
 
 def generate_password():
